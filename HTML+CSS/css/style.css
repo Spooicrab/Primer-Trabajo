@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: 57A773;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+nav{
+    background-color: 104911;
+    width:auto;
+    height:50;
+    margin: 10px auto;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+}
+nav ul{
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+nav ul a{
+    color: rgb(99, 101, 21);
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 800;
+
+}
+nav ul a:hover{
+    font-size: 25px;
+    background-color: 86BBD8;
+    border-radius: 50px ;
+    font-weight: 1600px;
+
+}
+h1, h2, h3, h4{
+    text-align: center;
+    font-weight: 900;  
+    font-family: 'Concert One', cursive;
+
+}
+h2, .info h2{
+    text-align: left;
+    padding-left: 30px;
+
+}
+footer{
+    background-color: #104911;
+    position: fixed;
+    bottom: 0%;
+    right: 1%;
+
+}
+.fotos{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+
+}
+.Content{
+    background-image: url('../assets/img2.jpg');
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+    margin: 20px;
+
+}
+.Content p, .info{
+    background-color:#bda6b464;
+    line-height: 1.5rem;  
+
+}
+.paisajes{
+    border: #104911 double 2px;
+    width: 300px;
+    height: 300px;
+    border-width: 5px;
+
+}
+.Cabañas{
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+.Reservas{
+    background-color: #bda6b464;
+    margin-bottom: 15px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;  
+
+}
+.Reservas p{
+    text-align: right;
+
+}
+.info div{
+    margin-top: 15px;
+    text-align: center;
+}
+.info p{
+    margin-top: 5px;
+}
+form{
+    margin-top: 20px;
+    width: 900;
+    background-color: #1049115b;
+}
